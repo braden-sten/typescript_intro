@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
+  "module" : "amd",
+  "target" : "es6",
   "sourceMap": true
   },
   "files": [
-      "interface_classes.ts"
+      "promises.ts"
   ]
 }
+
