@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
   "module" : "amd",
-  "target" : "es6",
+  // "target" : "es6",
+  "target" : "ES5",
+  "experimentalDecorators" : true,
+  "emitDecoratorMetadata" : true,
   "sourceMap": true
   },
   "files": [
-      "promises.ts"
+      "decorator_example_angular.ts"
   ]
 }
 
